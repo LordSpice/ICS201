@@ -1,5 +1,4 @@
 mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse     com.softwaresecured.reshift:maven-plugin:LATEST:upload     -Dreshift.token=iyYQeF+BCMzRrel60pVCiTR8KTYpNIJ49te09TXxR4M=
-
 package application;
 
 import java.io.FileInputStream;

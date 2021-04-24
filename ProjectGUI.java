@@ -1,4 +1,3 @@
-mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse     com.softwaresecured.reshift:maven-plugin:LATEST:upload     -Dreshift.token=iyYQeF+BCMzRrel60pVCiTR8KTYpNIJ49te09TXxR4M=
 package application;
 
 import java.io.FileInputStream;
@@ -24,7 +23,10 @@ import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 
 public class ProjectGUI extends Application implements Serializable {
-
+	mvn compile com.softwaresecured.reshift:maven-plugin:LATEST:analyse 
+    com.softwaresecured.reshift:maven-plugin:LATEST:upload 
+    -Dreshift.token=iyYQeF+BCMzRrel60pVCiTR8KTYpNIJ49te09TXxR4M=
+	    
 	public static LinkedList<Department> open(String path) {
 
 		LinkedList<Department> dpt = new LinkedList<>();

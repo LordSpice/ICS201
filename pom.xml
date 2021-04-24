@@ -1,1 +1,8 @@
-
+<project modelVersion="5.0.0" [groupId="..."] artifactId="..." [version="..."] template="...">
+  [<parent [groupId="..."] [artifactId="..."] [version="..."] [relativePath="..."]/>]
+  [<mixin [groupId="..."] [artifactId="..."] [version="..."] [relativePath="..."]/>]
+  [<extensions [mode="override|inherit"]>
+  </extensions>]
+  [<lifecycle id="..." mode="override|inherit">
+  </lifectcle>]
+</project>
